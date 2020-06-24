@@ -3,5 +3,7 @@ export interface ProductInterface {
   title: string,
   price: number,
   formattedPrice: string,
-  image: string
+  image: string,
+  amount: number,
+  subtotal: string
 }

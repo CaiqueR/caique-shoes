@@ -27,6 +27,11 @@ export const ProductList = styled.ul`
       margin: 5px 0 20px;
       font-size: 21px;
       font-weight: bold;
+      div{
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+      }
     }
     button {
       display: flex;
@@ -36,10 +41,10 @@ export const ProductList = styled.ul`
       border: 0;
       border-radius: 4px;
       color: #fff;
-      background: #7159c1;
+      background: #89043D;
       transition: background 0.2s;
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        background: ${darken(0.03, '#89043D')};
       }
       div {
         display: flex;
@@ -57,4 +62,10 @@ export const ProductList = styled.ul`
       }
     }
   }
+`;
+
+export const Container = styled.div`
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 `;

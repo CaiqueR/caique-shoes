@@ -11,16 +11,23 @@ export const Container = styled.div`
     align-items: center;
     margin-top: 30px;
     button {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       padding: 12px 20px;
       border: 0;
       border-radius: 4px;
       color: #fff;
-      background: #7159c1;
+      background: #89043D;
       font-weight: bold;
       text-transform: uppercase;
       transition: background 0.2s;
       &:hover {
-        background: ${darken(0.03, '#7159c1')};
+        background: ${darken(0.03, '#89043D')};
+      }
+
+      :disabled{
+        background: ${darken(0.9, '#89043D')};
       }
     }
   }

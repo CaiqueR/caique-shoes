@@ -28,5 +28,9 @@ body,input,button{
 
 button{
   cursor: pointer;
+  
+  :disabled{
+    cursor: not-allowed;
+  }
 }
 `;
