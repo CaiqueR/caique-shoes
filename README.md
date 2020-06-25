@@ -1,7 +1,7 @@
 ![caique-shoes](https://i.imgur.com/s9sMNks.png)
 
 <p align="center">
-  <a href="https://caique-shoes.vercel.app/">
+  <a href="https://caique-shoes.vercel.app/" target="_blank">
     <img alt="Caique Shoes" src="https://svgshare.com/i/MKt.svg">
   </a>
 </p>
