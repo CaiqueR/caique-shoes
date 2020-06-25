@@ -11,12 +11,12 @@ export const addItemToCartSuccess = (product: ProductInterface) => ({
   payload: product,
 });
 
-export const removeItemFromCart = (id: ProductInterface) => ({
+export const removeItemFromCart = (product: ProductInterface) => ({
   type: CartActionTypes.REMOVE_ITEM_FROM_CART,
-  payload: id,
+  payload: product,
 });
 
-export const updateItemFromCart = (id: ProductInterface, amount: number) => ({
+export const updateItemFromCart = (product: ProductInterface, amount: number) => ({
   type: CartActionTypes.UPDATE_ITEM_FROM_CART,
-  payload: { id, amount },
+  payload: { product, amount },
 });

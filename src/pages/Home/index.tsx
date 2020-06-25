@@ -44,7 +44,7 @@ export default function Home() {
   }, [dispatch]);
 
   const handleAddProduct = useCallback((product: ProductInterface) => {
-    toast(`Produto ${product.title} adicionado ao carrinho`, { autoClose: 4000 });
+    toast.dark(`Produto ${product.title} adicionado ao carrinho`, { autoClose: 4000, position: 'bottom-center' });
     dispatch(
       addItemToCartRequest(product.id),
     );

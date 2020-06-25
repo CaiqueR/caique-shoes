@@ -21,13 +21,13 @@ function load(state = INITIAL_STATE, action: LoadActions) {
     }
     case LoadActionsTypes.LOADING: {
       const newState = { ...state };
-      newState[action.payload] = !newState[action.payload];
+      newState[action.payload] = true;
 
       return newState;
     }
     case LoadActionsTypes.LOADED: {
       const newState = { ...state };
-      newState[action.payload] = !newState[action.payload];
+      newState[action.payload] = false;
       return newState;
     }
 
