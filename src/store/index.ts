@@ -7,10 +7,10 @@ import rootSaga from './modules/rootSaga';
 
 const sagaMiddleware = createSagaMiddleware();
 const middleWares = [];
+middleWares.push(sagaMiddleware);
 
 if (process.env.NODE_ENV === 'development') {
   middleWares.push(logger);
-  middleWares.push(sagaMiddleware);
 }
 
 // Pegar todos os reducers do combineReducers para formar

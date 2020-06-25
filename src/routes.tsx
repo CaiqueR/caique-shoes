@@ -9,6 +9,7 @@ export default function Routes() {
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/cart" exact component={Cart} />
+      <Route component={Home} />
     </Switch>
   );
 }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/products",
+      "dest": "/api/products.ts"
+    },
+    {
+      "src": "/api/products/(?<id>[^/]*)",
+      "dest": "/api/products.ts?id=$id"
+    }
+  ]
+}
