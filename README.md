@@ -11,7 +11,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiquer/caique-shoes">
 
-  <a href="https://www.linkedin.com/in/igortuag/">
+  <a href="https://www.linkedin.com/in/caiquer/">
     <img alt="Made by leon-carvalho" src="https://img.shields.io/badge/made%20by-Caique Ribeiro-%2304D361">
   </a>
 	
